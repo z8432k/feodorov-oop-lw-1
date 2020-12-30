@@ -16,7 +16,7 @@ endif()
 
 message(STATUS "Build type: ${CMAKE_BUILD_TYPE}")
 
-if(CMAKE_COMPILER_IS_GNUCC)
+if(CMAKE_COMPILER_IS_GNUCXX)
     message(STATUS "Detected GNU compiler. Using specific flags.")
     set(CMAKE_CXX_FLAGS "-pipe -Wno-unused-parameter")
     set(CMAKE_CXX_FLAGS_DEBUG "-Wall -Wextra -Wpedantic -O0 -ggdb3")
