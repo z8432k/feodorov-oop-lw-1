@@ -24,7 +24,11 @@ int main(int argc, char** argv) {
 
     bool result = rchecker->rangecheck(stod(num));
 
-    cout << result << endl;
+    cout << "From: " << left << endl;
+    cout << "To: " << right << endl;
+    cout << "Num: " << num << endl << endl;
+
+    cout << "Result: " << result << endl;
 
     delete rchecker;
 
