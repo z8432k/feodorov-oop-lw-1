@@ -24,3 +24,6 @@ if(CMAKE_COMPILER_IS_GNUCXX)
 endif()
 
 add_subdirectory(src)
+
+enable_testing()
+add_subdirectory(tests)
