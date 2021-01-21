@@ -22,7 +22,7 @@ int main(int argc, char** argv) {
     cout << "To: " << right << endl;
     cout << "Num: " << num << endl << endl;
 
-    cout << "Result: " << result << endl;
+    cout << "Result: " << (result ? "In range." : "Out of range.") << endl;
 
     exit(!result);
 }
